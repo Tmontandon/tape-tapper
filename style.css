@@ -1,0 +1,71 @@
+:root {
+  --lg: rgb(185, 185, 185);
+  --b: rgb(80, 41, 10);
+  --lg: rgb(84, 137, 48);
+  --llb: rgb(249, 195, 137);
+  --lllb: rgb(239, 142, 23);
+  --llllb: orange;
+  --o: rgb(255, 145, 0);
+}
+
+.section {
+  margin-left: 14rem;
+  margin-right: 14rem;
+}
+
+.section2 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.fontP {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.bg-lg {
+  background-color: var(--lg);
+}
+
+.bg-img {
+  background-color: rgb(255, 241, 83);
+}
+
+.tape-pic {
+  height: 20rem;
+}
+
+.bd-b {
+  border: solid 15px var(--b);
+}
+
+.bd-sb {
+  border-top: solid 5px var(--b);
+  border-right: solid 5px var(--b);
+  border-left: solid 5px var(--b);
+}
+
+.bg-lg {
+  background-color: var(--lg);
+}
+
+.bg-llb {
+  background-color: var(--llb);
+}
+
+.bg-lllb {
+  background-color: var(--lllb);
+}
+
+.bg-llllb {
+  background-color: var(--llllb);
+}
+
+.bg-o {
+  background-color: var(--o);
+}
+
+.sizeTap {
+  height: 275px;
+  width: 330px;
+  ;
+}
