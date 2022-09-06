@@ -1,4 +1,4 @@
-let stripsOfTape = 200
+let stripsOfTape = 0
 let stripPerClick = 1
 let passiveStrips = 0
 
@@ -134,7 +134,7 @@ function update() {
   // @ts-ignore
   currentClick3.innerHTML = `<button class="btn btn-outline-success " onclick="buyClick3()">BUY</button> <p class="mb-0">Endless Tape  +5</p> <p class="text-secondary">Purchased: ${clickUpgrades[2].quantity} Price: ${clickUpgrades[2].price}</p>`
   // @ts-ignore
-  worker1.innerHTML = `<button class="btn btn-outline-success " onclick="buyPassive1()">BUY</button> <p class="mb-0">Mr. Sticky  +5</p> <p class="text-secondary">Purchased: ${passiveUpgrades[0].quantity} Price: ${passiveUpgrades[0].price}</p>`
+  worker1.innerHTML = `<button class="btn btn-outline-success " onclick="buyPassive1()">BUY</button> <p class="mb-0">Mr. Sticky  +10/sec</p> <p class="text-secondary">Purchased: ${passiveUpgrades[0].quantity} Price: ${passiveUpgrades[0].price}</p>`
   // @ts-ignore
   currentPassive.innerHTML = `StripsPerSecond: ${passiveStrips}`
   // @ts-ignore
